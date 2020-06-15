@@ -1,8 +1,6 @@
-{% extends "base.html" %}
+{% extends "base.html" %} {% block content %}
 
-{% block content%}
-
-<h2 class="animate__animated animate__bounce animate__repeat-20">Image Classifier</h2>
+<h2>Image Classifier</h2>
 
 <div>
     <form id="upload-file" method="post" enctype="multipart/form-data">
@@ -10,9 +8,6 @@
             Choose...
         </label>
         <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
-
-
-
     </form>
 
     <div class="image-section" style="display:none;">
@@ -32,8 +27,5 @@
     </h3>
 
 </div>
-
-
-
 
 {% endblock %}
