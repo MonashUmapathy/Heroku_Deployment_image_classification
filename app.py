@@ -3,7 +3,7 @@
 from flask import Flask,render_template,url_for,request,redirect
 from werkzeug.utils import secure_filename
 # Keras
-from keras.applications.imagenet_utils import preprocess_input, decode_predictions
+from tensorflow.keras.applications.imagenet_utils import preprocess_input, decode_predictions
 from tensorflow.keras.models import load_model
 from keras.preprocessing import image
 #import sys
